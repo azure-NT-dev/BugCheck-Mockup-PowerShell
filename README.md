@@ -24,14 +24,22 @@ It is intended for demonstration, testing, or educational purposes only.
 ---
 
 ## Usage
-1. Clone the repository:
+
+1. Clone the repository or download the ZIP:
    ```powershell
-   git clone https://github.com/azure-NT-dev/BugCheck-Mockup-PowerShell.git
+   git clone https://github.com/azure-NT-dev/BugCheck-Mockup-PowerShell.git 
+ 
+2.cd `"Downloads"`
 
-2. Navigate to the directory: cd BugCheck-Mockup-PowerShell
+3. Enter the extracted project folder (the name may vary depending on GitHub archive):
+`cd BugCheck-Mockup-PowerShell-422ea0a2c3c6692bd0a5083bc72b46e4ea15f959`
 
-3. Run the script: .\BugCheck-Mockup.ps1
+Allow script execution for this session (if required):
+4.`Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass`
 
-4.  After the script runs it'll immediately show the Blue Screen of Death.
+5. Run the script: `.\BugCheck-Mockup.ps1`
+
+## Enjoy!
+
 
 
